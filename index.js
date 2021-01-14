@@ -32,7 +32,7 @@ program
   .option('-o, --out <dir>', 'output the rendered HTML or compiled JavaScript to <dir>')
   .option('-p, --path <path>', 'filename used to resolve includes')
   .option('-b, --basedir <path>', 'path used as root directory to resolve absolute includes')
-  .option('-P, --pretty', 'compile pretty HTML output')
+  .option('-P, --pretty <str>', 'compile pretty HTML output')
   .option('-c, --client', 'compile function for client-side')
   .option('-n, --name <str>', 'the name of the compiled template (requires --client)')
   .option('-D, --no-debug', 'compile without debugging (smaller functions)')
